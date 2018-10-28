@@ -12,9 +12,9 @@ class PrettyWidget(QtGui.QWidget):
         grid = QtGui.QGridLayout()
         self.setLayout(grid)
         
-        data = {'Adı':['Can','Semih','Büşra','Nevruze','Ayşe'],
-                'Soyadı':['YBS','YBS','İktisat','YBS','Sosyal Hizmet'],
-                'Bolumu':['Aydın','Yarar','Demirgüreşçi','Karakuş','Gün']}
+        data = {'Adı':['Can','Semih','Büşra'],
+                'Soyadı':['YBS','YBS','İktisat'],
+                'Bolumu':['Aydın','Yarar','Demirgüreşçi']}
         
         table = QtGui.QTableWidget(self)
         table.setRowCount(3)
